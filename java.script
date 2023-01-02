@@ -1,0 +1,17 @@
+//Função tradicional
+function square(numero) {
+  return numero * numero;
+}
+
+
+//Função tradicional com retorno de valores
+function imposto(valor, proprietario = 'Pedro'){
+   console.log(valor,proprietario);
+}
+imposto(100);
+
+
+//Arrow Function
+let soma_com_arrowFunc = (primeiro,segundo)=>{  
+   return primeiro+segundo;
+}
